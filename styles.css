@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f1f1f1;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border: 1px solid #e1e1e1; 
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #007bff; 
+    font-weight: bold;
+}
+
+.settings, .options {
+    margin: 15px 0;
+    text-align: left;
+    font-size: 16px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+input[type="number"], input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #28a745; 
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.result {
+    margin-top: 20px;
+}
+
+.result input {
+    width: calc(100% - 50px);
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 5px;
+    font-size: 16px;
+}
+
+#copy {
+    background-color: #ffc107; 
+    color: #333;
+    width: 50px;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#copy:hover {
+    background-color: #e0a800; 
+}
+
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    margin-top: 30px;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
